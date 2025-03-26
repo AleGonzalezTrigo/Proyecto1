@@ -1,0 +1,93 @@
+body {
+    background-color: #c8e3ea;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f8fa;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #18444f;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+    color: #18444f;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 2px solid #18444f;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #2895af;
+    width: 60%;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #4cd4f5;
+    transform: scale(1.05);
+}
+
+fieldset {
+    border: 2px solid #18444f;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #18444f;
+}
+
+
+.container {
+	margin: auto;
+	padding: 50px;
+	background-color: #f0f8fa;
+	border-radius: 20px;
+	width: 50%;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #18444f;
+}
+
+h3 a {
+	font-size: 22px;
+	font-weight: bold;
+	color: #2895af;
+	text-decoration: none;
+	transition: color 0.3s, transform 0.2s;
+}
+
+h3 a:hover {
+	color: #4cd4f5;
+	transform: scale(1.05);
+}
